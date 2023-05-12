@@ -1,0 +1,9 @@
+asgiref==3.6.0
+decouple==0.0.7
+Django==4.2.1
+gevent==22.10.2
+greenlet==2.0.2
+sqlparse==0.4.4
+websocket==0.2.1
+zope.event==4.6
+zope.interface==6.0
