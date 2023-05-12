@@ -21,6 +21,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'daphne',
+
+    'chat',
 ]
 
 MIDDLEWARE = [
@@ -52,6 +56,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'source.wsgi.application'
+ASGI_APPLICATION = 'source.asgi.application'
 
 
 # Database
